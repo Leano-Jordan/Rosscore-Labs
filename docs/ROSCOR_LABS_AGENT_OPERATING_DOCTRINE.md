@@ -200,6 +200,10 @@ A company-level request that affects multiple projects must be split into explic
 **COMPANY REQUEST**
 → Zazu task
 → Swift Order task
+→ GnuGuard task
+→ Leano ITC task
+→ Maggie's task
+→ Catering Template task
 → shared company decision
 
 Never let a multi-project request become an implicit multi-repository write.
@@ -226,6 +230,10 @@ Default report:
 - **Next action**
 
 Do not produce long status narratives when a short verified result is sufficient.
+
+## Control-plane enforcement
+
+The human-readable doctrine is paired with `roscore-control.json` and `scripts/roscore_control_lint.py`. Changes to company identity or project routing are expected to fail the control lint until the machine-readable and human-readable records agree.
 
 ## Final principle
 
