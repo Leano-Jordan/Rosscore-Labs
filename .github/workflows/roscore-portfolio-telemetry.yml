@@ -20,7 +20,7 @@ jobs:
 
       - name: Collect portfolio telemetry
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ROSCORE_TELEMETRY_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/roscore_portfolio_telemetry.py
 
       - name: Commit telemetry snapshot
