@@ -88,7 +88,7 @@ Required fields:
 
 ## Boundary rule
 
-The registry gives Jarvis awareness of every project. It does **not** merge project knowledge or project authority.
+The registry gives **Ross** awareness of every project. It does **not** merge project knowledge or project authority.
 
 A project repository remains an isolated execution domain.
 
