@@ -70,6 +70,9 @@ def main() -> int:
             fail(f"{name}: expected alias {alias!r}, found {project.get('alias')!r}")
         if project.get("repository") != repository:
             fail(f"{name}: expected repository {repository}, found {project.get('repository')}")
+        for field in ("lifecycle", "strategic_role", "write_boundary"):
+            if not isinstance(project.get(field), str) or not project.get(field).strip():
+                fail(f"{name}: missing {field}")
         if repository in seen_repos:
             fail(f"duplicate repository mapping: {repository}")
         seen_repos.add(repository)
