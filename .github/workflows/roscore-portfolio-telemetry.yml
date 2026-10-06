@@ -27,7 +27,7 @@ jobs:
         run: |
           if git status --porcelain -- telemetry/latest.json telemetry/latest.md | grep -q "^"; then
             echo "Telemetry unchanged"
-          exit 0
+            exit 0
           fi
           git config user.name "Ross Portfolio Telemetry"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
