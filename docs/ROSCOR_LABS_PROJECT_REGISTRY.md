@@ -20,6 +20,9 @@
 - Project Director: **Jarvis** (Zazu)
 - Project authority: Zazu repository only
 - Company role: Initial Rosscore Labs product
+- Lifecycle: release-hardening
+- Strategic role: initial product
+- Allowed write boundary: Swift Order repository only
 - State source: current Zazu repository, living state/release documentation and verified CI/runtime evidence
 
 ### Swift Order
@@ -37,6 +40,9 @@
 - Repository: `Leano-Jordan/GnuGuard`
 - Project Director: **Gnu**
 - Company role: Android software asset / product candidate
+- Lifecycle: product-candidate
+- Strategic role: software asset / product candidate
+- Allowed write boundary: GnuGuard repository only
 - State source: current GnuGuard repository, project memory and verified build/device evidence
 
 ### Leano ITC Website
@@ -45,6 +51,9 @@
 - Repository: `Leano-Jordan/leano-itc-website`
 - Project Director: **ITC**
 - Company role: commercial website / service asset
+- Lifecycle: commercial-asset
+- Strategic role: service website asset
+- Allowed write boundary: Leano ITC Website repository only
 - State source: current repository, project memory, provenance/licensing records and verified runtime evidence
 
 ### Maggie's Hair & Beauty
@@ -53,6 +62,9 @@
 - Repository: `Leano-Jordan/maggies-hair-beauty`
 - Project Director: **Mags**
 - Company role: reusable salon/beauty website asset
+- Lifecycle: commercial-asset
+- Strategic role: reusable salon website asset
+- Allowed write boundary: Maggie's Hair & Beauty repository only
 - State source: current repository, project memory and verified browser/device evidence
 
 ### Catering Website Template
@@ -61,6 +73,9 @@
 - Repository: `Leano-Jordan/catering-website-template`
 - Project Director: **Cater**
 - Company role: reusable commercial website template
+- Lifecycle: commercial-asset
+- Strategic role: reusable catering template asset
+- Allowed write boundary: Catering Website Template repository only
 - State source: current repository, commercial-readiness documentation and verified CI/runtime evidence
 
 ### FRIDAY AI 6.7 Pro Refined
@@ -68,6 +83,9 @@
 - Repository: `Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined`
 - State: **EMPTY REPOSITORY**
 - Project Director: None assigned
+- Lifecycle: inactive
+- Strategic role: unstarted repository
+- Allowed write boundary: none
 - Rule: Do not treat this as an active project until code and a project boundary are established.
 
 ## Future projects
