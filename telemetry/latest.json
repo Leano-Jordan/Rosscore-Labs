@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-06T13:35:19.261590+00:00",
+  "company": "Rosscore Labs",
+  "company_director": "Ross",
+  "source": "GitHub API current repository state",
+  "projects": [
+    {
+      "name": "Zazu EMP",
+      "alias": "Jarvis",
+      "repository": "Leano-Jordan/ZazuEMP",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-06T13:15:45Z",
+      "days_since_push": 0.01,
+      "open_issues": 0,
+      "stars": 0,
+      "forks": 0,
+      "has_issues": true,
+      "has_actions": null,
+      "latest_ci": {
+        "name": "Laravel",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-06T13:15:47Z",
+        "updated_at": "2026-10-06T13:16:54Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37469417882"
+      },
+      "ci_last_10": {
+        "completed": 10,
+        "successful": 8,
+        "success_rate": 0.8
+      },
+      "control_contracts_missing": [],
+      "control_contracts_present": true,
+      "health_flags": []
+    },
+    {
+      "name": "Swift Order",
+      "alias": "Swifty",
+      "repository": "Leano-Jordan/store-ordering-system",
+      "health_flags": [
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "GnuGuard",
+      "alias": "Gnu",
+      "repository": "Leano-Jordan/GnuGuard",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-06T13:14:33Z",
+      "days_since_push": 0.01,
+      "open_issues": 0,
+      "stars": 0,
+      "forks": 0,
+      "has_issues": true,
+      "has_actions": null,
+      "latest_ci": null,
+      "ci_last_10": {
+        "completed": 0,
+        "successful": 0,
+        "success_rate": null
+      },
+      "control_contracts_missing": [],
+      "control_contracts_present": true,
+      "health_flags": [
+        "NO_CI_RUN_OBSERVED"
+      ]
+    },
+    {
+      "name": "Leano ITC Website",
+      "alias": "ITC",
+      "repository": "Leano-Jordan/leano-itc-website",
+      "health_flags": [
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Maggie's Hair & Beauty",
+      "alias": "Mags",
+      "repository": "Leano-Jordan/maggies-hair-beauty",
+      "health_flags": [
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Catering Website Template",
+      "alias": "Cater",
+      "repository": "Leano-Jordan/catering-website-template",
+      "health_flags": [
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "FRIDAY AI 6.7 Pro Refined",
+      "alias": null,
+      "repository": "Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined",
+      "lifecycle": "inactive",
+      "status": "inactive-empty",
+      "health_flags": [
+        "INACTIVE_PROJECT"
+      ]
+    }
+  ]
+}
