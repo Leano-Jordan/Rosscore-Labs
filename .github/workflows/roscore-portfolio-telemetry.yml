@@ -25,7 +25,7 @@ jobs:
 
       - name: Commit telemetry snapshot
         run: |
-          if git status --porcelain -- telemetry/latest.json telemetry/latest.md | grep -q "^"; then
+          if ! git status --porcelain -- telemetry/latest.json telemetry/latest.md | grep -q "^"; then
             echo "Telemetry unchanged"
             exit 0
           fi
