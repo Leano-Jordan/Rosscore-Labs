@@ -94,7 +94,7 @@ def main() -> int:
         fail("doctrine must preserve explicit evidence-state language")
     for marker in [
         "silently import another project's",
-        "Never let a multi-repository write",
+        "Never let a multi-project request become an implicit multi-repository write",
         "Never claim evidence that was not actually observed",
     ]:
         if marker not in doctrine:
