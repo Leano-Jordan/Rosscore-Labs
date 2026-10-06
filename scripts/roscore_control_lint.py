@@ -12,6 +12,8 @@ CONTROL = ROOT / "roscore-control.json"
 AGENTS = ROOT / "AGENTS.md"
 REGISTRY = ROOT / "docs" / "ROSCOR_LABS_PROJECT_REGISTRY.md"
 DOCTRINE = ROOT / "docs" / "ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md"
+TELEMETRY = ROOT / "scripts" / "roscore_portfolio_telemetry.py"
+TELEMETRY_WORKFLOW = ROOT / ".github" / "workflows" / "roscore-portfolio-telemetry.yml"
 
 REQUIRED_PROJECTS = {
     "Zazu EMP": ("Jarvis", "Leano-Jordan/ZazuEMP", "commercial-readiness", "initial product"),
@@ -31,7 +33,7 @@ def require_file(path: Path) -> None:
         fail(f"missing required file: {path.relative_to(ROOT)}")
 
 def main() -> int:
-    for path in (CONTROL, AGENTS, REGISTRY, DOCTRINE):
+    for path in (CONTROL, AGENTS, REGISTRY, DOCTRINE, TELEMETRY, TELEMETRY_WORKFLOW):
         require_file(path)
     if ERRORS:
         return report()
