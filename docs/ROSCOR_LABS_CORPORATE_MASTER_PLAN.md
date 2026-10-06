@@ -1,18 +1,18 @@
-# Roscor Labs — Corporate Master Plan
+# Rosscore Labs — Corporate Master Plan
 
-> Working strategic document. Roscor Labs is the company; Swift Order and Zazu EMP are products within its portfolio.
+> Working strategic document. Rosscore Labs is the company; Swift Order and Zazu EMP are products within its portfolio.
 
 ## 1. Executive Summary
 
-Roscor Labs is being built from the ground up by a solo South African software developer who wants to create his own sustainable technology company rather than depend on employment opportunities.
+Rosscore Labs is being built from the ground up by a solo South African software developer who wants to create his own sustainable technology company rather than depend on employment opportunities.
 
 The immediate business is software development and commercialization: build useful software products and license them to customers, primarily through recurring payments. The initial portfolio is Swift Order and Zazu EMP.
 
-The long-term ambition is substantially larger: grow Roscor Labs into a major South African-owned technology company, create employment and skills opportunities, and use the company's success to contribute meaningfully to underserved communities.
+The long-term ambition is substantially larger: grow Rosscore Labs into a major South African-owned technology company, create employment and skills opportunities, and use the company's success to contribute meaningfully to underserved communities.
 
 ## 2. Company Identity & Purpose
 
-**Company:** Roscor Labs
+**Company:** Rosscore Labs
 
 **Origin:** Founder-led, South African, initially solo-operated.
 
@@ -22,13 +22,13 @@ The long-term ambition is substantially larger: grow Roscor Labs into a major So
 - Swift Order
 - Zazu EMP
 
-**Long-term expansion:** Once the software business has traction and cash flow, Roscor Labs may also take on selected website development, graphic design, logo design and large-format printing work. These are secondary opportunities, not the current core business.
+**Long-term expansion:** Once the software business has traction and cash flow, Rosscore Labs may also take on selected website development, graphic design, logo design and large-format printing work. These are secondary opportunities, not the current core business.
 
 ## 3. Vision, Mission & Principles
 
 ### Vision
 
-Build Roscor Labs into a major South African-owned technology company capable of creating substantial employment, developing local technical talent and contributing positively to communities that have historically had less access to opportunity and knowledge.
+Build Rosscore Labs into a major South African-owned technology company capable of creating substantial employment, developing local technical talent and contributing positively to communities that have historically had less access to opportunity and knowledge.
 
 ### Mission — working draft
 
@@ -59,7 +59,7 @@ The core model is software product development followed by commercial licensing.
 - Large-format printing and related services
 - Selective custom software development
 
-**Custom-work rule:** Roscor Labs may accept custom development when the project is within current delivery capability and the commercial return justifies the time. Work that is materially beyond current capability or creates unacceptable delivery risk should be declined or partnered on.
+**Custom-work rule:** Rosscore Labs may accept custom development when the project is within current delivery capability and the commercial return justifies the time. Work that is materially beyond current capability or creates unacceptable delivery risk should be declined or partnered on.
 
 Secondary work should support cash flow, experience and customer relationships without permanently displacing the company's own product development.
 
@@ -67,7 +67,7 @@ Secondary work should support cash flow, experience and customer relationships w
 
 ### Swift Order
 
-A core Roscor Labs software product. Commercial positioning, target customer definition, pricing and launch strategy remain to be finalized.
+A core Rosscore Labs software product. Commercial positioning, target customer definition, pricing and launch strategy remain to be finalized.
 
 ### Zazu EMP
 
@@ -83,7 +83,7 @@ Longer-term geographic expansion: TBD.
 
 ## 7. Competitive Positioning
 
-TBD through product-by-product market research. Roscor Labs should compete on useful outcomes, product quality, practical implementation and customer value rather than trying to imitate large technology companies.
+TBD through product-by-product market research. Rosscore Labs should compete on useful outcomes, product quality, practical implementation and customer value rather than trying to imitate large technology companies.
 
 ## 8. Revenue & Pricing Strategy
 
@@ -98,7 +98,7 @@ The founder's current personal financial reference points are:
 - R10,000/month: major personal improvement.
 - R20,000/month: major life-changing milestone.
 
-These are **personal financial markers, not Roscor Labs' revenue ceiling or corporate targets**. The company's long-term revenue potential must be assessed independently through product economics, market research and actual customer demand.
+These are **personal financial markers, not Rosscore Labs' revenue ceiling or corporate targets**. The company's long-term revenue potential must be assessed independently through product economics, market research and actual customer demand.
 
 Pricing, packaging, margins and customer acquisition economics: TBD.
 
@@ -112,13 +112,13 @@ Detailed sales process and marketing channels: TBD.
 
 ## 10. Operations
 
-Roscor Labs currently operates as a founder-led company. The operating model must therefore prioritize focused product development, controlled scope, customer validation, sales, support and cash preservation.
+Rosscore Labs currently operates as a founder-led company. The operating model must therefore prioritize focused product development, controlled scope, customer validation, sales, support and cash preservation.
 
 As revenue grows, operational functions can become dedicated roles and eventually teams.
 
 ## 11. Technology & Intellectual Property
 
-Roscor Labs should build and retain ownership of its software products and associated intellectual property where legally and commercially appropriate.
+Rosscore Labs should build and retain ownership of its software products and associated intellectual property where legally and commercially appropriate.
 
 Formal IP ownership, trademarks, licensing agreements, contracts and related protections require legal review before commercialization at scale.
 
@@ -161,13 +161,13 @@ Hire people, expand product capability, strengthen operations and broaden the cu
 
 ### Phase 4 — Build the institution
 
-Develop Roscor Labs into a substantial South African technology company with multiple teams, products and community impact programmes.
+Develop Rosscore Labs into a substantial South African technology company with multiple teams, products and community impact programmes.
 
 ### Long-term strategic flexibility
 
 The company is not being locked into today's product categories. If future capital, capability and opportunity justify expansion into other technology areas — including additional software products, technology services or potentially hardware/electronics — those opportunities can be evaluated on their merits.
 
-The current plan therefore establishes direction without pretending the founder already knows what Roscor Labs will look like decades from now.
+The current plan therefore establishes direction without pretending the founder already knows what Rosscore Labs will look like decades from now.
 
 ## 16. 12–36 Month Roadmap
 
@@ -193,7 +193,7 @@ Targets: TBD.
 
 | Item | Current position | Status |
 |---|---|---|
-| Parent company | Roscor Labs | Confirmed |
+| Parent company | Rosscore Labs | Confirmed |
 | Initial products | Swift Order, Zazu EMP | Confirmed |
 | Founder model | Solo developer initially | Confirmed |
 | Core business | Develop and license software | Confirmed |
@@ -218,14 +218,14 @@ Targets: TBD.
 
 ## 19. Corporate Documentation Architecture
 
-Roscor Labs' company documentation belongs in the dedicated **Roscor Labs repository**, separate from product repositories.
+Rosscore Labs' company documentation belongs in the dedicated **Rosscore Labs repository**, separate from product repositories.
 
 The master plan is the top-level strategic document. Supporting documents should be created only where the subject becomes detailed enough to justify its own controlled document.
 
 Planned documentation set:
 - Corporate Master Plan — company direction and strategic decisions.
 - Business Model — revenue architecture, licensing, services and commercial rules.
-- Product Portfolio — relationship between Roscor Labs and its products, including Zazu EMP and Swift Order.
+- Product Portfolio — relationship between Rosscore Labs and its products, including Zazu EMP and Swift Order.
 - Go-to-Market — customer acquisition, sales process, pilots, positioning and market validation.
 - Financial Model — pricing assumptions, revenue targets, costs, cash flow, reinvestment and founder compensation.
 - Operating Model — founder role, hiring sequence, development, sales, support and internal operations.
@@ -239,7 +239,7 @@ This architecture is intentionally separate from product engineering documentati
 
 ### Market and Product Strategy
 
-1. **Between Swift Order and Zazu EMP, which one do you believe has the best chance of getting Roscor Labs its first paying customer?**
+1. **Between Swift Order and Zazu EMP, which one do you believe has the best chance of getting Rosscore Labs its first paying customer?**
 2. **Who is the most obvious first customer for that product? Describe the actual business/person, not a broad industry.**
 3. **What problem are you confident enough that product solves that you would be willing to ask someone to pay for it today?**
 4. **Do you currently know any potential customers personally or through your community/network who could become early testers or paying customers?**
