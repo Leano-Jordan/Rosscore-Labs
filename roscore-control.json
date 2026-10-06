@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "company": "Rosscore Labs",
+  "company_director": "Ross",
+  "company_repository": "Leano-Jordan/Rosscore-Labs",
+  "default_branch": "main",
+  "execution_modes": ["analysis", "execution", "review"],
+  "risk_tiers": {
+    "T0": "read-only analysis or reporting",
+    "T1": "bounded documentation/governance change",
+    "T2": "low-risk implementation change with normal verification",
+    "T3": "high-risk change involving security, auth, finance, data, licensing, migrations, release controls, or critical workflows",
+    "T4": "multi-project or company-control change; explicit target split and enhanced verification required"
+  },
+  "projects": [
+    {"name":"Zazu EMP","alias":"Jarvis","repository":"Leano-Jordan/ZazuEMP","manifest":"docs/ROSCOR_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"Swift Order","alias":"Swifty","repository":"Leano-Jordan/store-ordering-system","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"GnuGuard","alias":"Gnu","repository":"Leano-Jordan/GnuGuard","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"Leano ITC Website","alias":"ITC","repository":"Leano-Jordan/leano-itc-website","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"Maggie's Hair & Beauty","alias":"Mags","repository":"Leano-Jordan/maggies-hair-beauty","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"Catering Website Template","alias":"Cater","repository":"Leano-Jordan/catering-website-template","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"FRIDAY AI 6.7 Pro Refined","alias":null,"repository":"Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined","manifest":null,"agent_contract":null,"authority":"inactive-empty"}
+  ],
+  "forbidden_state": {
+    "cross_project_implicit_write": true,
+    "unknown_identity_write": true,
+    "unverified_release_claim": true,
+    "destructive_change_without_recovery_plan": true,
+    "stale_contract_override": true
+  }
+}
