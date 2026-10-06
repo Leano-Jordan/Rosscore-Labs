@@ -1,0 +1,8 @@
+# Ross company control-plane ownership.
+# Enforce review through a protected branch/ruleset with
+# Require review from Code Owners enabled.
+/.github/ @Leano-Jordan
+/docs/ @Leano-Jordan
+/scripts/ @Leano-Jordan
+/roscore-control.json @Leano-Jordan
+/AGENTS.md @Leano-Jordan
