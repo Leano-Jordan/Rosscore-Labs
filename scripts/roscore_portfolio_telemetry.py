@@ -90,6 +90,7 @@ def main():
         "projects": [],
     }
     errors = []
+    blocked = []
     for project in control["projects"]:
         if project.get("authority") == "inactive-empty":
             telemetry["projects"].append({
@@ -116,14 +117,19 @@ def main():
                 flags.append("CONTROL_CONTRACT_MISSING")
             telemetry["projects"].append(item)
         except Exception as exc:
+            message = str(exc)
+            access_blocked = "HTTP Error 404" in message or "HTTP Error 403" in message
+            if access_blocked:
+                blocked.append(project["name"])
             telemetry["projects"].append({
                 "name": project["name"],
                 "alias": project.get("alias"),
                 "repository": project["repository"],
-                "health_flags": ["TELEMETRY_ERROR"],
-                "error": str(exc),
+                "health_flags": ["ACCESS_BLOCKED"] if access_blocked else ["TELEMETRY_ERROR"],
+                "error": message,
             })
-            errors.append(f"{project['name']}: {exc}")
+            if not access_blocked:
+                errors.append(f"{project['name']}: {exc}")
 
     OUT.mkdir(exist_ok=True)
     (OUT / "latest.json").write_text(json.dumps(telemetry, indent=2) + "\n", encoding="utf-8")
@@ -149,6 +155,7 @@ def main():
         return 1
     print("Ross portfolio telemetry: PASS")
     print(f"Projects observed: {len(telemetry['projects'])}")
+    print(f"Access-blocked projects: {len(blocked)}")
     return 0
 
 if __name__ == "__main__":
