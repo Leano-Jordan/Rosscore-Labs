@@ -13,13 +13,13 @@
     "T4": "multi-project or company-control change; explicit target split and enhanced verification required"
   },
   "projects": [
-    {"name":"Zazu EMP","alias":"Jarvis","repository":"Leano-Jordan/ZazuEMP","manifest":"docs/ROSCOR_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
-    {"name":"Swift Order","alias":"Swifty","repository":"Leano-Jordan/store-ordering-system","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
-    {"name":"GnuGuard","alias":"Gnu","repository":"Leano-Jordan/GnuGuard","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
-    {"name":"Leano ITC Website","alias":"ITC","repository":"Leano-Jordan/leano-itc-website","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
-    {"name":"Maggie's Hair & Beauty","alias":"Mags","repository":"Leano-Jordan/maggies-hair-beauty","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
+    {"name":"Zazu EMP","alias":"Jarvis","repository":"Leano-Jordan/ZazuEMP","manifest":"docs/ROSCOR_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only","lifecycle":"commercial-readiness","strategic_role":"initial product","write_boundary":"repository only"},
+    {"name":"Swift Order","alias":"Swifty","repository":"Leano-Jordan/store-ordering-system","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only","lifecycle":"product-candidate","strategic_role":"software asset / product candidate","write_boundary":"repository only"},
+    {"name":"GnuGuard","alias":"Gnu","repository":"Leano-Jordan/GnuGuard","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only","lifecycle":"commercial-asset","strategic_role":"service website asset","write_boundary":"repository only"},
+    {"name":"Leano ITC Website","alias":"ITC","repository":"Leano-Jordan/leano-itc-website","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only","lifecycle":"commercial-asset","strategic_role":"reusable salon website asset","write_boundary":"repository only"},
+    {"name":"Maggie's Hair & Beauty","alias":"Mags","repository":"Leano-Jordan/maggies-hair-beauty","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only","lifecycle":"commercial-asset","strategic_role":"reusable catering template asset","write_boundary":"repository only"},
     {"name":"Catering Website Template","alias":"Cater","repository":"Leano-Jordan/catering-website-template","manifest":"ROSCORE_PROJECT_MANIFEST.md","agent_contract":"AGENTS.md","authority":"project-only"},
-    {"name":"FRIDAY AI 6.7 Pro Refined","alias":null,"repository":"Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined","manifest":null,"agent_contract":null,"authority":"inactive-empty"}
+    {"name":"FRIDAY AI 6.7 Pro Refined","alias":null,"repository":"Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined","manifest":null,"agent_contract":null,"authority":"inactive-empty","lifecycle":"inactive","strategic_role":"unstarted repository","write_boundary":"none"}
   ],
   "forbidden_state": {
     "cross_project_implicit_write": true,
