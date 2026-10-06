@@ -22,6 +22,14 @@ The long-term ambition is substantially larger: grow Rosscore Labs into a major 
 - Swift Order
 - Zazu EMP
 
+**Current supporting portfolio/assets:**
+- GnuGuard — Android network/security software asset
+- Leano ITC Website — commercial/service website asset
+- Maggie's Hair & Beauty — reusable salon/beauty website asset
+- Catering Website Template — reusable commercial website template
+
+The portfolio registry is the operational source for current project/repository routing; this master plan describes strategic positioning rather than implementation state.
+
 **Long-term expansion:** Once the software business has traction and cash flow, Rosscore Labs may also take on selected website development, graphic design, logo design and large-format printing work. These are secondary opportunities, not the current core business.
 
 ## 3. Vision, Mission & Principles
