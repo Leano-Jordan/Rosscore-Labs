@@ -1,0 +1,21 @@
+name: Rosscore Control Plane
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  control-lint:
+    name: Ross control-plane lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate company control plane
+        run: python scripts/roscore_control_lint.py
