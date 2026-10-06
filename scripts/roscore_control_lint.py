@@ -14,12 +14,12 @@ REGISTRY = ROOT / "docs" / "ROSCOR_LABS_PROJECT_REGISTRY.md"
 DOCTRINE = ROOT / "docs" / "ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md"
 
 REQUIRED_PROJECTS = {
-    "Zazu EMP": ("Jarvis", "Leano-Jordan/ZazuEMP"),
-    "Swift Order": ("Swifty", "Leano-Jordan/store-ordering-system"),
-    "GnuGuard": ("Gnu", "Leano-Jordan/GnuGuard"),
-    "Leano ITC Website": ("ITC", "Leano-Jordan/leano-itc-website"),
-    "Maggie's Hair & Beauty": ("Mags", "Leano-Jordan/maggies-hair-beauty"),
-    "Catering Website Template": ("Cater", "Leano-Jordan/catering-website-template"),
+    "Zazu EMP": ("Jarvis", "Leano-Jordan/ZazuEMP", "commercial-readiness", "initial product"),
+    "Swift Order": ("Swifty", "Leano-Jordan/store-ordering-system", "release-hardening", "initial product"),
+    "GnuGuard": ("Gnu", "Leano-Jordan/GnuGuard", "product-candidate", "software asset / product candidate"),
+    "Leano ITC Website": ("ITC", "Leano-Jordan/leano-itc-website", "commercial-asset", "service website asset"),
+    "Maggie's Hair & Beauty": ("Mags", "Leano-Jordan/maggies-hair-beauty", "commercial-asset", "reusable salon website asset"),
+    "Catering Website Template": ("Cater", "Leano-Jordan/catering-website-template", "commercial-asset", "reusable catering template asset"),
 }
 ERRORS: list[str] = []
 
@@ -60,7 +60,7 @@ def main() -> int:
         return report()
     seen_repos: set[str] = set()
     seen_aliases: set[str] = set()
-    for name, (alias, repository) in REQUIRED_PROJECTS.items():
+    for name, (alias, repository, lifecycle, strategic_role) in REQUIRED_PROJECTS.items():
         matches = [p for p in projects if p.get("name") == name]
         if len(matches) != 1:
             fail(f"control manifest must contain exactly one project entry for {name}")
@@ -70,9 +70,10 @@ def main() -> int:
             fail(f"{name}: expected alias {alias!r}, found {project.get('alias')!r}")
         if project.get("repository") != repository:
             fail(f"{name}: expected repository {repository}, found {project.get('repository')}")
-        for field in ("lifecycle", "strategic_role", "write_boundary"):
-            if not isinstance(project.get(field), str) or not project.get(field).strip():
-                fail(f"{name}: missing {field}")
+        expected_meta = {"lifecycle": lifecycle, "strategic_role": strategic_role, "write_boundary": "repository only"}
+        for field, expected in expected_meta.items():
+            if project.get(field) != expected:
+                fail(f"{name}: expected {field}={expected!r}, found {project.get(field)!r}")
         if repository in seen_repos:
             fail(f"duplicate repository mapping: {repository}")
         seen_repos.add(repository)
