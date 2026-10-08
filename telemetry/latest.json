@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-08T19:45:48.023233+00:00",
+  "generated_at": "2026-10-08T19:51:12.956218+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -83,7 +83,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:23:21Z",
-      "days_since_push": 0.43,
+      "days_since_push": 0.44,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -117,8 +117,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T09:15:25Z",
-      "days_since_push": 0.44,
+      "pushed_at": "2026-10-08T19:46:40Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -128,14 +128,14 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-08T09:15:29Z",
-        "updated_at": "2026-10-08T09:15:37Z",
-        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/37755392225"
+        "created_at": "2026-10-08T19:46:42Z",
+        "updated_at": "2026-10-08T19:46:52Z",
+        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/37834488221"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 15,
-        "success_rate": 0.75
+        "successful": 17,
+        "success_rate": 0.85
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -151,25 +151,25 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T09:15:27Z",
-      "days_since_push": 0.44,
+      "pushed_at": "2026-10-08T19:46:43Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Push on main",
+        "name": "pages build and deployment",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-08T09:15:30Z",
-        "updated_at": "2026-10-08T09:16:48Z",
-        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/37755394495"
+        "created_at": "2026-10-08T19:46:46Z",
+        "updated_at": "2026-10-08T19:47:39Z",
+        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/37834495496"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 14,
-        "success_rate": 0.7
+        "successful": 15,
+        "success_rate": 0.75
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -240,7 +240,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T19:42:18Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.01,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
