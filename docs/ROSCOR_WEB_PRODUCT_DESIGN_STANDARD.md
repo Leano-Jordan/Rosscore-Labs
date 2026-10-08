@@ -190,3 +190,24 @@ This standard is a company-level discipline pack.
 
 A project Director remains the authority for its own repository and must not import another project's branding, requirements, architecture or historical assumptions merely because the standard references those projects.
 
+
+## Operational Design DNA workflow
+
+Use `docs/ROSCOR_DESIGN_DNA_TEMPLATE.md` as the starting artifact for every new commercial website and every major redesign.
+
+### Mandatory sequence
+
+1. **Evidence intake** — establish business, customer, market, competitors, positioning, available proof and constraints.
+2. **Design DNA** — translate that evidence into a project-specific visual/product language.
+3. **Direction exploration** — consider materially different visual directions before committing.
+4. **UX architecture** — map journeys, IA, CTA hierarchy and responsive priorities from the business objective.
+5. **Visual system** — derive typography, colour, shape, composition, imagery and motion from the Design DNA.
+6. **Implementation** — build reusable components without allowing component reuse to flatten the visual identity.
+7. **Anti-Slop Check** — challenge generic AI patterns and unnecessary similarity to other Rosscore work.
+8. **Verification** — separate source, execution, browser, device and client evidence.
+
+### Hard rule
+
+**No major visual implementation from a generic prompt alone.** If the Design DNA is absent, materially incomplete or unsupported by evidence, the director must gather/establish the missing product context before locking the visual direction.
+
+The final site should feel like the client was designed by Rosscore — not like Rosscore was designed by the client.
