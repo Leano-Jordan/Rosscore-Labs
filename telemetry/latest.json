@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-10-08T09:15:44.485019+00:00",
+  "schema_version": "1.1",
+  "generated_at": "2026-10-08T09:16:53.517407+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
-  "source": "GitHub API current repository state",
+  "source": "GitHub API current repository state + post-commit director health artifacts",
   "projects": [
     {
       "name": "Zazu EMP",
@@ -21,20 +21,23 @@
       "has_actions": null,
       "latest_ci": {
         "name": "Push on main",
-        "status": "queued",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "created_at": "2026-10-08T09:15:35Z",
-        "updated_at": "2026-10-08T09:15:35Z",
+        "updated_at": "2026-10-08T09:16:28Z",
         "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37755404564"
       },
       "ci_last_10": {
-        "completed": 3,
-        "successful": 2,
-        "success_rate": 0.667
+        "completed": 19,
+        "successful": 14,
+        "success_rate": 0.737
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "health_flags": []
+      "director_health": null,
+      "health_flags": [
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
     },
     {
       "name": "Swift Order",
@@ -61,20 +64,24 @@
       "has_actions": null,
       "latest_ci": {
         "name": "gradle in /. for com.google.guava:guava, com.google.guava:guava, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, ...",
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "failure",
         "created_at": "2026-10-08T09:15:35Z",
-        "updated_at": "2026-10-08T09:15:39Z",
+        "updated_at": "2026-10-08T09:16:12Z",
         "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37755404509"
       },
       "ci_last_10": {
-        "completed": 4,
+        "completed": 5,
         "successful": 2,
-        "success_rate": 0.5
+        "success_rate": 0.4
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "health_flags": []
+      "director_health": null,
+      "health_flags": [
+        "LATEST_CI_NOT_GREEN",
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
     },
     {
       "name": "Leano ITC Website",
@@ -99,13 +106,16 @@
         "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/37755392225"
       },
       "ci_last_10": {
-        "completed": 8,
-        "successful": 7,
-        "success_rate": 0.875
+        "completed": 20,
+        "successful": 15,
+        "success_rate": 0.75
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "health_flags": []
+      "director_health": null,
+      "health_flags": [
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
     },
     {
       "name": "Maggie's Hair & Beauty",
@@ -123,20 +133,23 @@
       "has_actions": null,
       "latest_ci": {
         "name": "Push on main",
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "created_at": "2026-10-08T09:15:30Z",
-        "updated_at": "2026-10-08T09:15:34Z",
+        "updated_at": "2026-10-08T09:16:48Z",
         "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/37755394495"
       },
       "ci_last_10": {
-        "completed": 8,
-        "successful": 6,
-        "success_rate": 0.75
+        "completed": 20,
+        "successful": 14,
+        "success_rate": 0.7
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "health_flags": []
+      "director_health": null,
+      "health_flags": [
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
     },
     {
       "name": "Catering Website Template",
@@ -156,6 +169,83 @@
       "health_flags": [
         "INACTIVE_PROJECT"
       ]
+    },
+    {
+      "name": "Zahzu Inventory Assistant",
+      "alias": "Plug",
+      "repository": "Leano-Jordan/zahzu-inventory-assistant",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-08T09:15:40Z",
+      "days_since_push": 0.0,
+      "open_issues": 0,
+      "stars": 0,
+      "forks": 0,
+      "has_issues": true,
+      "has_actions": null,
+      "latest_ci": {
+        "name": "CI",
+        "status": "in_progress",
+        "conclusion": null,
+        "created_at": "2026-10-08T09:15:42Z",
+        "updated_at": "2026-10-08T09:15:56Z",
+        "html_url": "https://github.com/Leano-Jordan/zahzu-inventory-assistant/actions/runs/37755419552"
+      },
+      "ci_last_10": {
+        "completed": 19,
+        "successful": 1,
+        "success_rate": 0.053
+      },
+      "control_contracts_missing": [],
+      "control_contracts_present": true,
+      "director_health": null,
+      "health_flags": [
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
+    },
+    {
+      "name": "Mandla 411 Website",
+      "alias": null,
+      "repository": "Leano-Jordan/Mandla_411_website",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-08T09:15:42Z",
+      "days_since_push": 0.0,
+      "open_issues": 0,
+      "stars": 0,
+      "forks": 0,
+      "has_issues": true,
+      "has_actions": null,
+      "latest_ci": {
+        "name": "Rosscore Director Health Report",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-08T09:15:47Z",
+        "updated_at": "2026-10-08T09:15:55Z",
+        "html_url": "https://github.com/Leano-Jordan/Mandla_411_website/actions/runs/37755429194"
+      },
+      "ci_last_10": {
+        "completed": 1,
+        "successful": 1,
+        "success_rate": 1.0
+      },
+      "control_contracts_missing": [],
+      "control_contracts_present": true,
+      "director_health": null,
+      "health_flags": [
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
+    },
+    {
+      "name": "Online Task Management System",
+      "alias": null,
+      "repository": "Leano-Jordan/SA_1_-Online-Task-Management-System-Project",
+      "health_flags": [
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
     }
   ]
 }
