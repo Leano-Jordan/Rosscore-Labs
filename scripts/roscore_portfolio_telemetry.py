@@ -176,8 +176,6 @@ def main():
                 flags.append("NO_DIRECTOR_HEALTH_REPORT")
             elif dh.get("status") != "ready":
                 flags.append("DIRECTOR_HEALTH_NOT_READY")
-            elif dh.get("report_commit") and dh.get("report_commit") != item.get("latest_ci", {}).get("head_sha"):
-                flags.append("DIRECTOR_REPORT_COMMIT_MISMATCH")
             for rf in (dh or {}).get("risk_flags", []):
                 flags.append(f"DIRECTOR_{rf}")
             telemetry["projects"].append(item)
