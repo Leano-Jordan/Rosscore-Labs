@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-08T19:51:12.956218+00:00",
+  "generated_at": "2026-10-08T23:25:40.755504+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,9 +12,9 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T18:07:48Z",
-      "days_since_push": 0.07,
-      "open_issues": 0,
+      "pushed_at": "2026-10-08T20:11:35Z",
+      "days_since_push": 0.13,
+      "open_issues": 1,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
@@ -22,21 +22,20 @@
       "latest_ci": {
         "name": "Rosscore Director Health Report",
         "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-10-08T18:17:09Z",
-        "updated_at": "2026-10-08T18:17:24Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37823089148"
+        "conclusion": "success",
+        "created_at": "2026-10-08T20:17:11Z",
+        "updated_at": "2026-10-08T20:17:20Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37838294314"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 4,
-        "success_rate": 0.2
+        "successful": 17,
+        "success_rate": 0.85
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": null,
       "health_flags": [
-        "LATEST_CI_NOT_GREEN",
         "NO_DIRECTOR_HEALTH_REPORT"
       ]
     },
@@ -48,7 +47,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:32:02Z",
-      "days_since_push": 0.43,
+      "days_since_push": 0.58,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -83,7 +82,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:23:21Z",
-      "days_since_push": 0.44,
+      "days_since_push": 0.59,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -118,7 +117,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T19:46:40Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.15,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -152,7 +151,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T19:46:43Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.15,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -205,7 +204,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:15:40Z",
-      "days_since_push": 0.44,
+      "days_since_push": 0.59,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -239,8 +238,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T19:42:18Z",
-      "days_since_push": 0.01,
+      "pushed_at": "2026-10-08T19:51:25Z",
+      "days_since_push": 0.15,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -250,9 +249,9 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-08T19:42:20Z",
-        "updated_at": "2026-10-08T19:42:27Z",
-        "html_url": "https://github.com/Leano-Jordan/plumbing_website/actions/runs/37833934494"
+        "created_at": "2026-10-08T19:51:27Z",
+        "updated_at": "2026-10-08T19:51:36Z",
+        "html_url": "https://github.com/Leano-Jordan/plumbing_website/actions/runs/37835071831"
       },
       "ci_last_10": {
         "completed": 20,
