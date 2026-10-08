@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-08T09:16:53.517407+00:00",
+  "generated_at": "2026-10-08T13:43:10.881716+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,30 +12,31 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T09:15:32Z",
-      "days_since_push": 0.0,
+      "pushed_at": "2026-10-08T11:37:38Z",
+      "days_since_push": 0.09,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Push on main",
+        "name": "Rosscore Director Health Report",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-08T09:15:35Z",
-        "updated_at": "2026-10-08T09:16:28Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37755404564"
+        "conclusion": "failure",
+        "created_at": "2026-10-08T11:44:43Z",
+        "updated_at": "2026-10-08T11:44:54Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37772078362"
       },
       "ci_last_10": {
-        "completed": 19,
-        "successful": 14,
-        "success_rate": 0.737
+        "completed": 20,
+        "successful": 11,
+        "success_rate": 0.55
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": null,
       "health_flags": [
+        "LATEST_CI_NOT_GREEN",
         "NO_DIRECTOR_HEALTH_REPORT"
       ]
     },
@@ -43,10 +44,36 @@
       "name": "Swift Order",
       "alias": "Swifty",
       "repository": "Leano-Jordan/store-ordering-system",
+      "visibility": "public",
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-08T09:32:02Z",
+      "days_since_push": 0.17,
+      "open_issues": 0,
+      "stars": 0,
+      "forks": 0,
+      "has_issues": true,
+      "has_actions": null,
+      "latest_ci": {
+        "name": "ESLint",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-10-08T09:32:04Z",
+        "updated_at": "2026-10-08T09:32:18Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/37757310855"
+      },
+      "ci_last_10": {
+        "completed": 20,
+        "successful": 14,
+        "success_rate": 0.7
+      },
+      "control_contracts_missing": [],
+      "control_contracts_present": true,
+      "director_health": null,
       "health_flags": [
-        "ACCESS_BLOCKED"
-      ],
-      "error": "HTTP Error 404: Not Found"
+        "LATEST_CI_NOT_GREEN",
+        "NO_DIRECTOR_HEALTH_REPORT"
+      ]
     },
     {
       "name": "GnuGuard",
@@ -55,8 +82,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T09:15:23Z",
-      "days_since_push": 0.0,
+      "pushed_at": "2026-10-08T09:23:21Z",
+      "days_since_push": 0.18,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -66,14 +93,14 @@
         "name": "gradle in /. for com.google.guava:guava, com.google.guava:guava, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, ...",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-10-08T09:15:35Z",
-        "updated_at": "2026-10-08T09:16:12Z",
-        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37755404509"
+        "created_at": "2026-10-08T09:23:32Z",
+        "updated_at": "2026-10-08T09:24:11Z",
+        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37756315736"
       },
       "ci_last_10": {
-        "completed": 5,
-        "successful": 2,
-        "success_rate": 0.4
+        "completed": 11,
+        "successful": 7,
+        "success_rate": 0.636
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -91,7 +118,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:15:25Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.19,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -125,9 +152,9 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:15:27Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.19,
       "open_issues": 0,
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
@@ -178,7 +205,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:15:40Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.19,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -186,21 +213,22 @@
       "has_actions": null,
       "latest_ci": {
         "name": "CI",
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "failure",
         "created_at": "2026-10-08T09:15:42Z",
-        "updated_at": "2026-10-08T09:15:56Z",
+        "updated_at": "2026-10-08T09:19:25Z",
         "html_url": "https://github.com/Leano-Jordan/zahzu-inventory-assistant/actions/runs/37755419552"
       },
       "ci_last_10": {
-        "completed": 19,
+        "completed": 20,
         "successful": 1,
-        "success_rate": 0.053
+        "success_rate": 0.05
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": null,
       "health_flags": [
+        "LATEST_CI_NOT_GREEN",
         "NO_DIRECTOR_HEALTH_REPORT"
       ]
     },
@@ -212,9 +240,9 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-08T09:15:42Z",
-      "days_since_push": 0.0,
+      "days_since_push": 0.19,
       "open_issues": 0,
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
