@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T06:14:59.367645+00:00",
+  "generated_at": "2026-10-08T09:15:44.485019+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state",
@@ -12,8 +12,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-07T23:43:19Z",
-      "days_since_push": 0.27,
+      "pushed_at": "2026-10-08T09:15:32Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -21,16 +21,16 @@
       "has_actions": null,
       "latest_ci": {
         "name": "Push on main",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-07T23:43:21Z",
-        "updated_at": "2026-10-07T23:45:54Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37703855948"
+        "status": "queued",
+        "conclusion": null,
+        "created_at": "2026-10-08T09:15:35Z",
+        "updated_at": "2026-10-08T09:15:35Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/37755404564"
       },
       "ci_last_10": {
-        "completed": 10,
-        "successful": 6,
-        "success_rate": 0.6
+        "completed": 3,
+        "successful": 2,
+        "success_rate": 0.667
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -52,8 +52,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-06T13:14:33Z",
-      "days_since_push": 1.71,
+      "pushed_at": "2026-10-08T09:15:23Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -61,22 +61,20 @@
       "has_actions": null,
       "latest_ci": {
         "name": "gradle in /. for com.google.guava:guava, com.google.guava:guava, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, ...",
-        "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-10-07T23:01:36Z",
-        "updated_at": "2026-10-07T23:02:13Z",
-        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37699811840"
+        "status": "in_progress",
+        "conclusion": null,
+        "created_at": "2026-10-08T09:15:35Z",
+        "updated_at": "2026-10-08T09:15:39Z",
+        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37755404509"
       },
       "ci_last_10": {
-        "completed": 3,
-        "successful": 1,
-        "success_rate": 0.333
+        "completed": 4,
+        "successful": 2,
+        "success_rate": 0.5
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "health_flags": [
-        "LATEST_CI_NOT_GREEN"
-      ]
+      "health_flags": []
     },
     {
       "name": "Leano ITC Website",
@@ -85,25 +83,25 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T02:39:51Z",
-      "days_since_push": 0.15,
+      "pushed_at": "2026-10-08T09:15:25Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Push on main",
+        "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-08T02:39:53Z",
-        "updated_at": "2026-10-08T02:41:05Z",
-        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/37718972075"
+        "created_at": "2026-10-08T09:15:29Z",
+        "updated_at": "2026-10-08T09:15:37Z",
+        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/37755392225"
       },
       "ci_last_10": {
-        "completed": 10,
+        "completed": 8,
         "successful": 7,
-        "success_rate": 0.7
+        "success_rate": 0.875
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -116,25 +114,25 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T02:49:12Z",
-      "days_since_push": 0.14,
+      "pushed_at": "2026-10-08T09:15:27Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Materialize local editorial images",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-08T02:49:14Z",
-        "updated_at": "2026-10-08T02:49:26Z",
-        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/37719734392"
+        "name": "Push on main",
+        "status": "in_progress",
+        "conclusion": null,
+        "created_at": "2026-10-08T09:15:30Z",
+        "updated_at": "2026-10-08T09:15:34Z",
+        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/37755394495"
       },
       "ci_last_10": {
-        "completed": 10,
-        "successful": 7,
-        "success_rate": 0.7
+        "completed": 8,
+        "successful": 6,
+        "success_rate": 0.75
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
