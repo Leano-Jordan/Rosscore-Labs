@@ -32,6 +32,12 @@ The portfolio registry is the operational source for current project/repository 
 
 **Long-term expansion:** Once the software business has traction and cash flow, Rosscore Labs may also take on selected website development, graphic design, logo design and large-format printing work. These are secondary opportunities, not the current core business.
 
+## 2A. Founder / Company Identity Boundary
+
+Internal strategic planning may accurately describe Rosscore Labs as Founder-led or currently operated by a solo developer where that fact matters to capacity, finance, risk, hiring or operations. This is internal operating context, not the company's required customer-facing identity.
+
+Customer-facing materials must present Rosscore Labs and its products as professional commercial offerings. They must not ask prospects to support the Founder personally or volunteer personal circumstances that are not relevant to the customer. Professional presentation must remain truthful: do not invent employee counts, departments, customers, partnerships or capabilities. The canonical rule is `docs/ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md` and applies to all Directors and products.
+
 ## 3. Vision, Mission & Principles
 
 ### Vision
