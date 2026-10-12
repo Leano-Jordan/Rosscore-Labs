@@ -12,6 +12,7 @@ CONTROL = ROOT / "roscore-control.json"
 AGENTS = ROOT / "AGENTS.md"
 REGISTRY = ROOT / "docs" / "ROSCOR_LABS_PROJECT_REGISTRY.md"
 DOCTRINE = ROOT / "docs" / "ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md"
+CLIENT_IDENTITY = ROOT / "docs" / "ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md"
 TELEMETRY = ROOT / "scripts" / "roscore_portfolio_telemetry.py"
 TELEMETRY_WORKFLOW = ROOT / ".github" / "workflows" / "roscore-portfolio-telemetry.yml"
 
@@ -33,7 +34,7 @@ def require_file(path: Path) -> None:
         fail(f"missing required file: {path.relative_to(ROOT)}")
 
 def main() -> int:
-    for path in (CONTROL, AGENTS, REGISTRY, DOCTRINE, TELEMETRY, TELEMETRY_WORKFLOW):
+    for path in (CONTROL, AGENTS, REGISTRY, DOCTRINE, CLIENT_IDENTITY, TELEMETRY, TELEMETRY_WORKFLOW):
         require_file(path)
     if ERRORS:
         return report()
@@ -46,6 +47,7 @@ def main() -> int:
     agents = AGENTS.read_text(encoding="utf-8")
     registry = REGISTRY.read_text(encoding="utf-8")
     doctrine = DOCTRINE.read_text(encoding="utf-8")
+    client_identity = CLIENT_IDENTITY.read_text(encoding="utf-8")
 
     if control.get("company_director") != "Ross":
         fail("company_director must be Ross")
@@ -96,6 +98,17 @@ def main() -> int:
     ]:
         if marker not in agents:
             fail(f"company routing missing for {project}: {marker}")
+    if "ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md" not in agents or "ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md" not in doctrine:
+        fail("company agent contract and Director doctrine must reference the client-facing identity standard")
+    for marker in [
+        "Rosscore Labs is the business",
+        "not its customer-facing identity",
+        "Never make customers responsible for shaping, rescuing, validating",
+        "Do not claim Rosscore Labs has 100 employees",
+        "Do not make the Founder repeat this instruction",
+    ]:
+        if marker not in client_identity:
+            fail(f"client-facing identity standard missing mandatory rule: {marker!r}")
     if "OBSERVED" not in doctrine or "UNKNOWN" not in doctrine or "BLOCKED" not in doctrine:
         fail("doctrine must preserve explicit evidence-state language")
     for marker in [
