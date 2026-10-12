@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-12T23:36:56.463652+00:00",
+  "generated_at": "2026-10-12T23:39:19.354604+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,8 +12,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-12T23:01:17Z",
-      "days_since_push": 0.02,
+      "pushed_at": "2026-10-12T23:37:50Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -23,14 +23,14 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-12T23:08:44Z",
-        "updated_at": "2026-10-12T23:08:55Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/38320574539"
+        "created_at": "2026-10-12T23:38:28Z",
+        "updated_at": "2026-10-12T23:39:08Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/38323194552"
       },
       "ci_last_10": {
-        "completed": 20,
-        "successful": 18,
-        "success_rate": 0.9
+        "completed": 12,
+        "successful": 10,
+        "success_rate": 0.833
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -46,20 +46,20 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-11T11:13:55Z",
-      "days_since_push": 1.52,
+      "pushed_at": "2026-10-12T23:37:02Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Push on main",
+        "name": "ESLint",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-11T11:13:58Z",
-        "updated_at": "2026-10-11T11:15:03Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/38134801181"
+        "conclusion": "failure",
+        "created_at": "2026-10-12T23:37:05Z",
+        "updated_at": "2026-10-12T23:37:18Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/38323074216"
       },
       "ci_last_10": {
         "completed": 20,
@@ -70,6 +70,7 @@
       "control_contracts_present": true,
       "director_health": null,
       "health_flags": [
+        "LATEST_CI_NOT_GREEN",
         "NO_DIRECTOR_HEALTH_REPORT"
       ]
     },
@@ -80,8 +81,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-08T09:23:21Z",
-      "days_since_push": 4.59,
+      "pushed_at": "2026-10-12T23:37:04Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
@@ -89,22 +90,21 @@
       "has_actions": null,
       "latest_ci": {
         "name": "gradle in /. for com.google.guava:guava, com.google.guava:guava, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, ...",
-        "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-10-08T09:23:32Z",
-        "updated_at": "2026-10-08T09:24:11Z",
-        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/37756315736"
+        "status": "queued",
+        "conclusion": null,
+        "created_at": "2026-10-12T23:39:22Z",
+        "updated_at": "2026-10-12T23:39:22Z",
+        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/38323269279"
       },
       "ci_last_10": {
-        "completed": 11,
-        "successful": 7,
-        "success_rate": 0.636
+        "completed": 13,
+        "successful": 9,
+        "success_rate": 0.692
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": null,
       "health_flags": [
-        "LATEST_CI_NOT_GREEN",
         "NO_DIRECTOR_HEALTH_REPORT"
       ]
     },
@@ -115,25 +115,25 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-09T10:15:56Z",
-      "days_since_push": 3.56,
+      "pushed_at": "2026-10-12T23:37:06Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Scheduled",
+        "name": "Push on main",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-11T20:32:39Z",
-        "updated_at": "2026-10-11T20:34:01Z",
-        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/38172651960"
+        "created_at": "2026-10-12T23:37:08Z",
+        "updated_at": "2026-10-12T23:38:33Z",
+        "html_url": "https://github.com/Leano-Jordan/leano-itc-website/actions/runs/38323079721"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 19,
-        "success_rate": 0.95
+        "successful": 20,
+        "success_rate": 1.0
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -149,20 +149,20 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-10T21:11:53Z",
-      "days_since_push": 2.1,
+      "pushed_at": "2026-10-12T23:37:09Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Scheduled",
+        "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-11T15:21:15Z",
-        "updated_at": "2026-10-11T15:22:17Z",
-        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/38150919654"
+        "created_at": "2026-10-12T23:37:11Z",
+        "updated_at": "2026-10-12T23:37:25Z",
+        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/38323083085"
       },
       "ci_last_10": {
         "completed": 20,
@@ -202,25 +202,25 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-11T01:56:15Z",
-      "days_since_push": 1.9,
+      "pushed_at": "2026-10-12T23:37:13Z",
+      "days_since_push": 0.0,
       "open_issues": 0,
       "stars": 0,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "pages build and deployment",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-11T01:56:17Z",
-        "updated_at": "2026-10-11T01:56:59Z",
-        "html_url": "https://github.com/Leano-Jordan/ZIA-Inventory_Assist_Plugin/actions/runs/38103497727"
+        "name": "CI",
+        "status": "in_progress",
+        "conclusion": null,
+        "created_at": "2026-10-12T23:37:15Z",
+        "updated_at": "2026-10-12T23:37:27Z",
+        "html_url": "https://github.com/Leano-Jordan/ZIA-Inventory_Assist_Plugin/actions/runs/38323089442"
       },
       "ci_last_10": {
-        "completed": 20,
-        "successful": 7,
-        "success_rate": 0.35
+        "completed": 18,
+        "successful": 9,
+        "success_rate": 0.5
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
