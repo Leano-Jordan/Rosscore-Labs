@@ -102,8 +102,8 @@ def main() -> int:
         fail("company agent contract and Director doctrine must reference the client-facing identity standard")
     for marker in [
         "Rosscore Labs is the business",
-        "not its customer-facing identity",
-        "Never make customers responsible for shaping, rescuing, validating",
+        "not the business's customer-facing identity",
+        "Do not make customers responsible for shaping, rescuing, validating",
         "Do not claim Rosscore Labs has 100 employees",
         "Do not make the Founder repeat this instruction",
     ]:
