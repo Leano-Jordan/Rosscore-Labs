@@ -49,3 +49,4 @@ For multi-project requests, split work into explicit project targets. Never infe
 - docs/ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md
 - docs/ROSCOR_LABS_PROJECT_REGISTRY.md
 - docs/ROSCOR_LABS_CORPORATE_MASTER_PLAN.md
+- docs/ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md — mandatory company-wide rule for client-facing brand, marketing, sales and product communications
