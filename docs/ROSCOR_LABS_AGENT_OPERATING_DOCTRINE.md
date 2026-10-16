@@ -10,6 +10,12 @@ Rosscore Labs is the company. Zazu EMP and Swift Order are separate products. **
 
 Read and enforce `docs/ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md` for every customer-facing product, pre-launch page, website, outreach message, proposal, demo and sales interaction.
 
+## Offline/local-first capability and claims — mandatory
+
+Read and enforce `docs/ROSCOR_OFFLINE_FIRST_STANDARD.md` for offline/local-first architecture, delivery, verification, and every customer-facing offline claim. Offline scope remains project-specific: this company standard defines common terms and proof requirements, not an assumption that every Rosscore product must have identical offline features.
+
+
+
 Rosscore Labs is the business; the Founder is its owner, not its customer-facing identity. Present products on their own commercial merits and let prospects decide independently. Never frame a signup, demo request, purchase or feedback as support for the Founder personally. Keep internal operational truth separate from external messaging, and never fabricate company size, staff, customers, capabilities or availability.
 
 Every Project Director inherits this rule. Do not make the Founder repeat it project by project.
