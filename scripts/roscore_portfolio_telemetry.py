@@ -54,7 +54,10 @@ def age_days(iso: str | None):
     return round((datetime.now(timezone.utc) - dt).total_seconds() / 86400, 2)
 
 def latest_director_health(repo: str, workflow_runs: list[dict]):
-    health_runs = [r for r in workflow_runs if r.get("name") == "Rosscore Director Health"]
+    health_runs = [
+        r for r in workflow_runs
+        if str(r.get("name", "")).startswith("Rosscore Director Health")
+    ]
     if not health_runs:
         return None
     run = health_runs[0]
