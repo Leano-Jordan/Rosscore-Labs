@@ -7,45 +7,49 @@ import json
 import os
 import sys
 import urllib.request
+import urllib.error
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+AUTH_FALLBACK_USED = False
 CONTROL = ROOT / "roscore-control.json"
 OUT = ROOT / "telemetry"
 
-def api(path: str):
+def _request(url: str, token: str | None, timeout: int, *, json_response: bool):
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "roscore-portfolio-telemetry",
+    }
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.load(response) if json_response else response.read()
+
+def _authenticated_read(url: str, timeout: int, *, json_response: bool):
+    global AUTH_FALLBACK_USED
     token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        raise RuntimeError("GITHUB_TOKEN is required")
-    req = urllib.request.Request(
-        "https://api.github.com" + path,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "Authorization": f"Bearer {token}",
-            "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "roscore-portfolio-telemetry",
-        },
+    try:
+        return _request(url, token, timeout, json_response=json_response)
+    except urllib.error.HTTPError as exc:
+        if exc.code != 401 or not token:
+            raise
+        # A stale/invalid optional cross-repository token must not prevent
+        # read-only telemetry for public repositories. Private repos and
+        # protected artifacts remain explicitly unavailable.
+        AUTH_FALLBACK_USED = True
+        return _request(url, None, timeout, json_response=json_response)
+
+def api(path: str):
+    return _authenticated_read(
+        "https://api.github.com" + path, 20, json_response=True
     )
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.load(response)
 
 def api_bytes(url: str):
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        raise RuntimeError("GITHUB_TOKEN is required")
-    req = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "Authorization": f"Bearer {token}",
-            "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "roscore-portfolio-telemetry",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as response:
-        return response.read()
+    return _authenticated_read(url, 30, json_response=False)
 
 def age_days(iso: str | None):
     if not iso:
@@ -68,7 +72,17 @@ def latest_director_health(repo: str, workflow_runs: list[dict]):
             "run_id": run.get("id"),
             "head_sha": run.get("head_sha"),
         }
-    artifacts = api(f"/repos/{repo}/actions/runs/{run['id']}/artifacts?per_page=20").get("artifacts", [])
+    try:
+        artifacts = api(f"/repos/{repo}/actions/runs/{run['id']}/artifacts?per_page=20").get("artifacts", [])
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403, 404):
+            return {
+                "status": "artifact_access_unavailable",
+                "run_id": run.get("id"),
+                "head_sha": run.get("head_sha"),
+                "reason": f"HTTP {exc.code}",
+            }
+        raise
     artifact = next(
         (a for a in artifacts
          if a.get("name", "").startswith("roscore-director-health-") and not a.get("expired")),
@@ -76,7 +90,17 @@ def latest_director_health(repo: str, workflow_runs: list[dict]):
     )
     if not artifact:
         return {"status": "missing_artifact", "run_id": run.get("id"), "head_sha": run.get("head_sha")}
-    raw = api_bytes(artifact["archive_download_url"])
+    try:
+        raw = api_bytes(artifact["archive_download_url"])
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403, 404):
+            return {
+                "status": "artifact_access_unavailable",
+                "run_id": run.get("id"),
+                "head_sha": run.get("head_sha"),
+                "reason": f"HTTP {exc.code}",
+            }
+        raise
     with zipfile.ZipFile(io.BytesIO(raw)) as zf:
         member = next((n for n in zf.namelist() if n.endswith("roscore-director-health.json")), None)
         if not member:
@@ -216,6 +240,9 @@ def main():
         report = dh.get("readiness") or dh.get("status") or "—"
         lines.append(f"| {p['name']} | {p.get('alias') or '—'} | {age} | {ci} | {report} | {flags} |")
     (OUT / "latest.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    if AUTH_FALLBACK_USED:
+        print("WARNING: GitHub token authentication failed; public repository telemetry used anonymous fallback. Cross-repository health artifacts may be unavailable.", file=sys.stderr)
 
     if errors:
         print("Telemetry completed with errors:")
