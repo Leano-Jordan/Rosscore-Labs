@@ -78,6 +78,17 @@
 - Allowed write boundary: Catering Website Template repository only
 - State source: current repository, commercial-readiness documentation and verified CI/runtime evidence
 
+### Zahzu Inventory Assistant (ZIA)
+
+- Product: Zahzu Inventory Assistant (ZIA)
+- Repository: `Leano-Jordan/ZIA-Inventory_Assist_Plugin`
+- Project Director: **Plug** (The Plug / Plugin)
+- Company role: Shopify inventory and purchasing micro-SaaS candidate
+- Lifecycle: commercial-readiness
+- Strategic role: focused Shopify merchant inventory, reorder and purchasing workflow
+- Allowed write boundary: ZIA repository only
+- State source: current repository, Plug audit log, current build/typecheck results, Shopify validation and verified runtime evidence
+
 ### FRIDAY AI 6.7 Pro Refined
 
 - Repository: `Leano-Jordan/FRIDAY_AI_6.7_Pro_Refined`
