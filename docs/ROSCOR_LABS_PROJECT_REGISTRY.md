@@ -22,7 +22,7 @@
 - Company role: Initial Rosscore Labs product
 - Lifecycle: release-hardening
 - Strategic role: initial product
-- Allowed write boundary: Swift Order repository only
+- Allowed write boundary: Zazu EMP repository only
 - State source: current Zazu repository, living state/release documentation and verified CI/runtime evidence
 
 ### Swift Order
