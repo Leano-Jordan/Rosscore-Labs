@@ -1,10 +1,10 @@
 # Ross Portfolio Telemetry
 
-Generated: 2026-10-16T11:08:55.096109+00:00
+Generated: 2026-10-16T11:12:20.254116+00:00
 
 | Project | Director | Push age | CI | Director report | Flags |
 |---|---|---:|---|---|---|
-| Zazu EMP | Jarvis | 0.0d | in_progress | — | NO_DIRECTOR_HEALTH_REPORT |
+| Zazu EMP | Jarvis | 0.0d | success | — | NO_DIRECTOR_HEALTH_REPORT |
 | Swift Order | Swifty | 1.4d | failure | — | LATEST_CI_NOT_GREEN, NO_DIRECTOR_HEALTH_REPORT |
 | GnuGuard | Gnu | 3.5d | failure | — | LATEST_CI_NOT_GREEN, NO_DIRECTOR_HEALTH_REPORT |
 | Leano ITC Website | ITC | 3.5d | success | — | NO_DIRECTOR_HEALTH_REPORT |
