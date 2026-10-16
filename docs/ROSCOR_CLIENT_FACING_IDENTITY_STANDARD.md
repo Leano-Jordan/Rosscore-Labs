@@ -75,7 +75,7 @@ Before accepting customer-facing copy, each Director must check:
 5. Are feedback and discovery requests optional rather than emotionally or procedurally coercive?
 6. Does the material maintain the relevant product's actual scope and target audience?
 
-If the material fails, revise it before publication. Do not require the Founder to repeat this instruction in each project conversation.
+If the material fails, revise it before publication. Do not make the Founder repeat this instruction. Do not require the Founder to repeat this instruction in each project conversation.
 
 ## 8. Authority
 
