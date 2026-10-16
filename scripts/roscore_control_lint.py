@@ -23,6 +23,7 @@ REQUIRED_PROJECTS = {
     "Leano ITC Website": ("ITC", "Leano-Jordan/leano-itc-website", "commercial-asset", "service website asset"),
     "Maggie's Hair & Beauty": ("Mags", "Leano-Jordan/maggies-hair-beauty", "commercial-asset", "reusable salon website asset"),
     "Catering Website Template": ("Cater", "Leano-Jordan/catering-website-template", "commercial-asset", "reusable catering template asset"),
+    "Zahzu Inventory Assistant (ZIA)": ("Plug", "Leano-Jordan/ZIA-Inventory_Assist_Plugin", "commercial-readiness", "Shopify inventory product"),
 }
 ERRORS: list[str] = []
 
@@ -95,6 +96,7 @@ def main() -> int:
         ("Leano ITC Website", "route to **ITC**"),
         ("Maggie's Hair & Beauty", "route to **Mags**"),
         ("Catering Website Template", "route to **Cater**"),
+        ("Zahzu Inventory Assistant (ZIA)", "route to **Plug**"),
     ]:
         if marker not in agents:
             fail(f"company routing missing for {project}: {marker}")
@@ -128,7 +130,7 @@ def report() -> int:
         return 1
     print("ROSCORE CONTROL LINT: PASS")
     print("Company Director: Ross")
-    print("Projects checked: 6 active + 1 inactive")
+    print("Projects checked: 7 active + 1 inactive")
     print("Identity firewall: PASS")
     print("Routing uniqueness: PASS")
     print("Evidence doctrine: PASS")
