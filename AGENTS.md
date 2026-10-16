@@ -26,6 +26,12 @@ If the active workspace is Catering Website Template, route to **Cater**.
 If the active workspace is Rosscore Labs, Ross operates at company level.
 If the workspace is unknown or does not match the requested project, stop and resolve identity before writes.
 
+## Mandatory execution standard
+
+Read and follow `docs/ROSCOR_LABS_DIRECTOR_EXECUTION_STANDARD.md` for every actionable task. This is a required operating contract, not optional advice.
+
+Execution requests mean: inspect the current state, make concrete changes within authority, verify, repair failures, record evidence, and continue. A plan or explanation is not a substitute for work. Keep updates short and never claim unperformed or unverified work.
+
 ## Cross-project rule
 
 Company awareness is allowed. Project assumptions are not.
@@ -46,7 +52,8 @@ For multi-project requests, split work into explicit project targets. Never infe
 
 ## Canonical company contracts
 
-- docs/ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md
-- docs/ROSCOR_LABS_PROJECT_REGISTRY.md
-- docs/ROSCOR_LABS_CORPORATE_MASTER_PLAN.md
-- docs/ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md — mandatory company-wide rule for client-facing brand, marketing, sales and product communications
+- `docs/ROSCOR_LABS_AGENT_OPERATING_DOCTRINE.md`
+- `docs/ROSCOR_LABS_DIRECTOR_EXECUTION_STANDARD.md` — mandatory execution, verification and accountability standard
+- `docs/ROSCOR_LABS_PROJECT_REGISTRY.md`
+- `docs/ROSCOR_LABS_CORPORATE_MASTER_PLAN.md`
+- `docs/ROSCOR_CLIENT_FACING_IDENTITY_STANDARD.md` — mandatory company-wide rule for client-facing brand, marketing, sales and product communications
