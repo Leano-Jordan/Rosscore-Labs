@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-16T21:29:34.100760+00:00",
+  "generated_at": "2026-10-16T21:32:21.573317+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -34,9 +34,14 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38906404325,
+        "head_sha": "97f018f27239e978c3a3ba0eef3e87b330f79a4c",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -68,10 +73,15 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38669897527,
+        "head_sha": "da273c47ea03d6eb4be8d01c06a63a8041521648",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
         "LATEST_CI_NOT_GREEN",
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -103,10 +113,15 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38323077248,
+        "head_sha": "8d71845aa8a084d9bef67dbb0a18edc546bfe0df",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
         "LATEST_CI_NOT_GREEN",
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -138,9 +153,14 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38323079623,
+        "head_sha": "8ab4c87cf0fa44a1431817c6ff144995191e671c",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -172,9 +192,14 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38323083085,
+        "head_sha": "16e008628eadf0585537fb39575b7b7448e27231",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -225,10 +250,15 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 38323089386,
+        "head_sha": "0a7495618a54edcc5070136c59c033802258499e",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
         "LATEST_CI_NOT_GREEN",
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
@@ -260,9 +290,14 @@
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
-      "director_health": null,
+      "director_health": {
+        "status": "artifact_access_unavailable",
+        "run_id": 37835071831,
+        "head_sha": "01b3afb60a0d537b077708c927d544b8c1daf5b1",
+        "reason": "HTTP 401"
+      },
       "health_flags": [
-        "NO_DIRECTOR_HEALTH_REPORT"
+        "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
     {
