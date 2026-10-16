@@ -27,6 +27,7 @@ The long-term ambition is substantially larger: grow Rosscore Labs into a major 
 - Leano ITC Website — commercial/service website asset
 - Maggie's Hair & Beauty — reusable salon/beauty website asset
 - Catering Website Template — reusable commercial website template
+- Zahzu Inventory Assistant (ZIA) — Shopify inventory and purchasing micro-SaaS candidate
 
 The portfolio registry is the operational source for current project/repository routing; this master plan describes strategic positioning rather than implementation state.
 
