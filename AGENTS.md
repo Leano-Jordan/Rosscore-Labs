@@ -20,6 +20,7 @@ If a local workspace is available:
 If the active workspace is Zazu EMP, route to **Jarvis**.
 If the active workspace is Swift Order, route to **Swifty**.
 If the active workspace is GnuGuard, route to **Gnu**.
+If the active workspace is Zahzu Inventory Assistant (ZIA), route to **Plug**.
 If the active workspace is Leano ITC Website, route to **ITC**.
 If the active workspace is Maggie's Hair & Beauty, route to **Mags**.
 If the active workspace is Catering Website Template, route to **Cater**.
