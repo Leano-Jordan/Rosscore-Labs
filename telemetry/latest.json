@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-16T21:33:24.744969+00:00",
+  "generated_at": "2026-10-16T21:54:30.506784+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -13,7 +13,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-16T13:09:58Z",
-      "days_since_push": 0.35,
+      "days_since_push": 0.36,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -52,7 +52,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-15T02:14:01Z",
-      "days_since_push": 1.81,
+      "days_since_push": 1.82,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -92,24 +92,24 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:04Z",
-      "days_since_push": 3.91,
+      "days_since_push": 3.93,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "gradle in /. for com.google.guava:guava, com.google.guava:guava, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, io.netty:netty-codec-http, ...",
+        "name": "pages build and deployment",
         "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-10-12T23:39:22Z",
-        "updated_at": "2026-10-12T23:39:59Z",
-        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/38323269279"
+        "conclusion": "success",
+        "created_at": "2026-10-16T21:38:43Z",
+        "updated_at": "2026-10-16T21:39:29Z",
+        "html_url": "https://github.com/Leano-Jordan/GnuGuard/actions/runs/38970754070"
       },
       "ci_last_10": {
-        "completed": 15,
-        "successful": 9,
-        "success_rate": 0.6
+        "completed": 16,
+        "successful": 10,
+        "success_rate": 0.625
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -120,7 +120,6 @@
         "reason": "HTTP 401"
       },
       "health_flags": [
-        "LATEST_CI_NOT_GREEN",
         "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
@@ -132,7 +131,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 3.91,
+      "days_since_push": 3.93,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -171,7 +170,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:09Z",
-      "days_since_push": 3.91,
+      "days_since_push": 3.93,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -229,7 +228,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:13Z",
-      "days_since_push": 3.91,
+      "days_since_push": 3.93,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -265,40 +264,10 @@
       "name": "Mandla 411 Website",
       "alias": null,
       "repository": "Leano-Jordan/Mandla_411_website",
-      "visibility": "public",
-      "archived": false,
-      "default_branch": "main",
-      "pushed_at": "2026-10-08T19:51:25Z",
-      "days_since_push": 8.07,
-      "open_issues": 0,
-      "stars": 1,
-      "forks": 0,
-      "has_issues": true,
-      "has_actions": null,
-      "latest_ci": {
-        "name": "Rosscore Director Health Report",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-08T19:51:27Z",
-        "updated_at": "2026-10-08T19:51:36Z",
-        "html_url": "https://github.com/Leano-Jordan/plumbing_website/actions/runs/37835071831"
-      },
-      "ci_last_10": {
-        "completed": 20,
-        "successful": 14,
-        "success_rate": 0.7
-      },
-      "control_contracts_missing": [],
-      "control_contracts_present": true,
-      "director_health": {
-        "status": "artifact_access_unavailable",
-        "run_id": 37835071831,
-        "head_sha": "01b3afb60a0d537b077708c927d544b8c1daf5b1",
-        "reason": "HTTP 401"
-      },
       "health_flags": [
-        "DIRECTOR_HEALTH_NOT_READY"
-      ]
+        "ACCESS_BLOCKED"
+      ],
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "name": "Online Task Management System",
