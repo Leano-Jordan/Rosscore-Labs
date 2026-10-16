@@ -111,8 +111,9 @@ def main() -> int:
     ]:
         if marker not in client_identity:
             fail(f"client-facing identity standard missing mandatory rule: {marker!r}")
-    if "OBSERVED" not in doctrine or "UNKNOWN" not in doctrine or "BLOCKED" not in doctrine:
-        fail("doctrine must preserve explicit evidence-state language")
+    for marker in ("VERIFIED", "CHANGED, NOT VERIFIED", "INFERRED", "UNKNOWN", "BLOCKED"):
+        if marker not in doctrine:
+            fail(f"doctrine is missing canonical evidence-state label: {marker!r}")
     for marker in [
         "silently import another project's",
         "Never let a multi-project request become an implicit multi-repository write",
