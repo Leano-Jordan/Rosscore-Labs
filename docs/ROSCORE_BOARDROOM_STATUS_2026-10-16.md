@@ -22,7 +22,7 @@ The company is still carrying a meaningful gap between building products and pro
 | **Catering Website Template** | Next.js/TypeScript V1 template foundation. Its own README excludes backend services, CMS, payments, authentication and database until required. Telemetry marked repository access as blocked, so current CI/readiness was not verified here. | Sell as a source/template or customised website package only after checking the actual latest files and quality gate. Do not describe it as a full catering SaaS. |
 | **Thabz Driving School** | Mobile-first static lead-generation website with WhatsApp/phone enquiry path; current README says prices stay private and business/offer details require confirmation. | Potential client-site delivery/reference asset, not automatically a generic marketplace template. Confirm client ownership/approval and final runtime behaviour. |
 | **Plumbing website repositories** | `plumbing_website` and `Plumbers_in_pretoria` both identify themselves in their README as “Plumbers in Pretoria — Rosscore Plumbing Pack”. The `plumbing_website` GitHub description instead says “Mandla 411” pest-control/cleaning/handyman services. The portfolio telemetry also associates the stale Mandla 411 name with `plumbing_website`. | **Identity conflict / duplication risk.** Determine the canonical repository and intended business before deploying, selling or publishing either site. Do not copy or delete repositories merely to remove the mismatch. |
-| **Rosscore portfolio tracking** | The telemetry snapshot generated at 2026-10-16 21:19 UTC flags Swift Order and GnuGuard CI signals, ZIA CI failure and missing health reports. The company control records previously omitted ZIA from the human-readable registry and used the old repository slug. | Company-level ZIA registration and canonical mapping have now been updated. The telemetry matcher was also corrected to recognise the actual “Rosscore Director Health Report” workflow name. Wait for CI/telemetry evidence before claiming those fixes passed. |
+| **Rosscore portfolio tracking** | The refreshed telemetry snapshot generated at 2026-10-16 21:32 UTC flags Swift Order and GnuGuard CI signals and ZIA CI failure. The company control records previously omitted ZIA from the human-readable registry and used the old repository slug. | Company-level ZIA registration and canonical mapping have now been updated. The telemetry matcher was corrected to recognise the actual “Rosscore Director Health Report” workflow name. The control-plane workflow and telemetry workflow completed successfully on company commit `169a5e0`; however, Director health artifacts remain `artifact_access_unavailable` across tracked projects because the cross-repository token cannot authenticate or retrieve those artifacts. The public metadata snapshot is fresh, but per-project Director readiness is still not established. |
 
 ## Commercial position
 
@@ -43,6 +43,8 @@ The company is still carrying a meaningful gap between building products and pro
 
 These are company-control/documentation changes. The ZIA repository's own manifest and agent contract still contain the old slug and should be reconciled by Plug inside the ZIA repository boundary.
 
+- **VERIFIED:** Rosscore Control Plane passed on company commit `169a5e0` ([run](https://github.com/Leano-Jordan/Rosscore-Labs/actions/runs/38970043800)). Portfolio telemetry completed successfully on the same commit ([run](https://github.com/Leano-Jordan/Rosscore-Labs/actions/runs/38970043948)), but cross-repository Director health artifacts remain unavailable. A valid `ROSCORE_TELEMETRY_TOKEN` with read access to Actions runs/artifacts across tracked repositories is still needed; the collector currently falls back to public metadata when token authentication fails.
+
 ## Next operating priorities
 
 1. **Revenue:** use the Leano ITC site as a business-facing sales surface and package one clear, fixed-scope website offer; keep a simple lead → quote → deposit → delivery → balance ledger.
@@ -51,6 +53,7 @@ These are company-control/documentation changes. The ZIA repository's own manife
 4. **Swift Order:** repair the invalid ESLint config path, rerun CI and then work down release blockers.
 5. **GnuGuard:** obtain a fresh Gradle build/test baseline and test on a physical Android device.
 6. **Asset hygiene:** resolve the duplicate/conflicting plumbing site identity and capture an authoritative inventory of demos, clients, licences, live URLs and owner approvals.
+7. **Restore trustworthy portfolio health reports:** refresh the cross-repository telemetry token/permissions and verify that health artifacts can be downloaded, rather than treating metadata-only telemetry as Director certification.
 
 ## Unknowns requiring a real company ledger
 
