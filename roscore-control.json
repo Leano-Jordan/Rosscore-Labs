@@ -95,9 +95,9 @@
       "write_boundary": "none"
     },
     {
-      "name": "Zahzu Inventory Assistant",
+      "name": "Zahzu Inventory Assistant (ZIA)",
       "alias": "Plug",
-      "repository": "Leano-Jordan/zahzu-inventory-assistant",
+      "repository": "Leano-Jordan/ZIA-Inventory_Assist_Plugin",
       "manifest": "ROSCORE_PROJECT_MANIFEST.md",
       "agent_contract": "AGENTS.md",
       "authority": "project-only",
