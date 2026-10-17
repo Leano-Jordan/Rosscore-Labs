@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-16T22:01:07.431843+00:00",
+  "generated_at": "2026-10-17T04:37:23.205425+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -13,7 +13,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-16T13:09:58Z",
-      "days_since_push": 0.37,
+      "days_since_push": 0.64,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -38,7 +38,7 @@
         "status": "artifact_access_unavailable",
         "run_id": 38906404325,
         "head_sha": "97f018f27239e978c3a3ba0eef3e87b330f79a4c",
-        "reason": "HTTP 401"
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -52,19 +52,19 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-15T02:14:01Z",
-      "days_since_push": 1.82,
+      "days_since_push": 2.1,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "SonarCloud analysis",
+        "name": "CodeQL Advanced",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-10-15T02:14:10Z",
-        "updated_at": "2026-10-15T02:14:28Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/38669909158"
+        "created_at": "2026-10-16T22:03:29Z",
+        "updated_at": "2026-10-16T22:04:26Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/38973403963"
       },
       "ci_last_10": {
         "completed": 20,
@@ -77,7 +77,7 @@
         "status": "artifact_access_unavailable",
         "run_id": 38669897527,
         "head_sha": "da273c47ea03d6eb4be8d01c06a63a8041521648",
-        "reason": "HTTP 401"
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "LATEST_CI_NOT_GREEN",
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:04Z",
-      "days_since_push": 3.93,
+      "days_since_push": 4.21,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -117,7 +117,7 @@
         "status": "artifact_access_unavailable",
         "run_id": 38323077248,
         "head_sha": "8d71845aa8a084d9bef67dbb0a18edc546bfe0df",
-        "reason": "HTTP 401"
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -131,7 +131,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 3.93,
+      "days_since_push": 4.21,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -156,7 +156,7 @@
         "status": "artifact_access_unavailable",
         "run_id": 38323079623,
         "head_sha": "8ab4c87cf0fa44a1431817c6ff144995191e671c",
-        "reason": "HTTP 401"
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -169,33 +169,33 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-12T23:37:09Z",
-      "days_since_push": 3.93,
+      "pushed_at": "2026-10-16T23:05:41Z",
+      "days_since_push": 0.23,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Rosscore Director Health Report",
+        "name": "pages build and deployment",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-12T23:37:11Z",
-        "updated_at": "2026-10-12T23:37:25Z",
-        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/38323083085"
+        "created_at": "2026-10-16T23:05:43Z",
+        "updated_at": "2026-10-16T23:06:37Z",
+        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/38979544863"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 19,
-        "success_rate": 0.95
+        "successful": 17,
+        "success_rate": 0.85
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 38323083085,
-        "head_sha": "16e008628eadf0585537fb39575b7b7448e27231",
-        "reason": "HTTP 401"
+        "run_id": 38979544615,
+        "head_sha": "a963b62bdca394d10980897ab8bcab98e2b8ced6",
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -228,7 +228,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:13Z",
-      "days_since_push": 3.93,
+      "days_since_push": 4.21,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -253,7 +253,7 @@
         "status": "artifact_access_unavailable",
         "run_id": 38323089386,
         "head_sha": "0a7495618a54edcc5070136c59c033802258499e",
-        "reason": "HTTP 401"
+        "reason": "HTTP 403"
       },
       "health_flags": [
         "LATEST_CI_NOT_GREEN",
