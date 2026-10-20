@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-19T22:26:42.394465+00:00",
+  "generated_at": "2026-10-20T04:59:23.550067+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,9 +12,9 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-19T16:26:24Z",
-      "days_since_push": 0.25,
-      "open_issues": 3,
+      "pushed_at": "2026-10-19T23:35:41Z",
+      "days_since_push": 0.22,
+      "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
@@ -23,21 +23,21 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-19T16:45:31Z",
-        "updated_at": "2026-10-19T16:47:19Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/39288142672"
+        "created_at": "2026-10-19T23:41:15Z",
+        "updated_at": "2026-10-19T23:41:27Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/39343095130"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 20,
-        "success_rate": 1.0
+        "successful": 17,
+        "success_rate": 0.85
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 39288142672,
-        "head_sha": "ae4c39a32f9cc0e566d7d8039cbe2e8b6d01b483",
+        "run_id": 39343095130,
+        "head_sha": "f8e48fed8bb3bff94a49de3c7b3203589e665804",
         "reason": "HTTP 401"
       },
       "health_flags": [
@@ -52,7 +52,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-15T02:14:01Z",
-      "days_since_push": 4.84,
+      "days_since_push": 5.11,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 0.97,
+      "days_since_push": 1.24,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 6.95,
+      "days_since_push": 7.22,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -170,32 +170,32 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-16T23:05:41Z",
-      "days_since_push": 2.97,
-      "open_issues": 1,
+      "pushed_at": "2026-10-20T00:06:34Z",
+      "days_since_push": 0.2,
+      "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Scheduled",
+        "name": "PR #6",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-18T15:21:13Z",
-        "updated_at": "2026-10-18T15:22:27Z",
-        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/39140094062"
+        "created_at": "2026-10-20T00:06:36Z",
+        "updated_at": "2026-10-20T00:07:29Z",
+        "html_url": "https://github.com/Leano-Jordan/maggies-hair-beauty/actions/runs/39345660956"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 17,
-        "success_rate": 0.85
+        "successful": 20,
+        "success_rate": 1.0
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 38979544615,
-        "head_sha": "a963b62bdca394d10980897ab8bcab98e2b8ced6",
+        "run_id": 39345659292,
+        "head_sha": "6434e7d66fa720f5acf112d89543997549e8a676",
         "reason": "HTTP 401"
       },
       "health_flags": [
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-17T22:25:54Z",
-      "days_since_push": 2.0,
+      "days_since_push": 2.27,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
