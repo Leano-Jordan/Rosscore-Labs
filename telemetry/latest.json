@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-21T04:58:13.986182+00:00",
+  "generated_at": "2026-10-21T11:59:42.549058+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,33 +12,33 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-20T23:04:52Z",
-      "days_since_push": 0.25,
-      "open_issues": 3,
+      "pushed_at": "2026-10-21T11:23:44Z",
+      "days_since_push": 0.03,
+      "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "PHPMD",
+        "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-21T00:06:30Z",
-        "updated_at": "2026-10-21T00:06:56Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/39519269399"
+        "created_at": "2026-10-21T11:28:41Z",
+        "updated_at": "2026-10-21T11:28:53Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/39592234453"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 15,
-        "success_rate": 0.75
+        "successful": 18,
+        "success_rate": 0.9
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
-        "status": "completed",
-        "conclusion": "skipped",
-        "run_id": 39513216077,
-        "head_sha": "f8e48fed8bb3bff94a49de3c7b3203589e665804"
+        "status": "artifact_access_unavailable",
+        "run_id": 39592234453,
+        "head_sha": "7dc0a5a7a4067675444ccfb349aa364d24f8d1d6",
+        "reason": "HTTP 401"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -52,7 +52,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-15T02:14:01Z",
-      "days_since_push": 6.11,
+      "days_since_push": 6.41,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -91,7 +91,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 2.24,
+      "days_since_push": 2.53,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -131,7 +131,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 8.22,
+      "days_since_push": 8.52,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -170,7 +170,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 0.86,
+      "days_since_push": 1.16,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -227,8 +227,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-17T22:25:54Z",
-      "days_since_push": 3.27,
+      "pushed_at": "2026-10-21T06:45:17Z",
+      "days_since_push": 0.22,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -238,21 +238,21 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-17T22:25:56Z",
-        "updated_at": "2026-10-17T22:26:04Z",
-        "html_url": "https://github.com/Leano-Jordan/ZIA-Inventory_Assist_Plugin/actions/runs/39075043650"
+        "created_at": "2026-10-21T06:45:19Z",
+        "updated_at": "2026-10-21T06:45:29Z",
+        "html_url": "https://github.com/Leano-Jordan/ZIA-Inventory_Assist_Plugin/actions/runs/39557399696"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 9,
-        "success_rate": 0.45
+        "successful": 13,
+        "success_rate": 0.65
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 39075043650,
-        "head_sha": "7454f2d68b79e5ec2bfa42b782d3121636c3ba6e",
+        "run_id": 39557399696,
+        "head_sha": "78f2384caedaf2a868c8d3f7e99791186c11b94a",
         "reason": "HTTP 401"
       },
       "health_flags": [
