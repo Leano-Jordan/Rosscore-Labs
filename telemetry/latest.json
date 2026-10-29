@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-28T22:40:36.084101+00:00",
+  "generated_at": "2026-10-29T05:57:07.051650+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -13,7 +13,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-24T18:23:06Z",
-      "days_since_push": 4.18,
+      "days_since_push": 4.48,
       "open_issues": 3,
       "stars": 1,
       "forks": 0,
@@ -52,24 +52,24 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-22T02:13:54Z",
-      "days_since_push": 6.85,
+      "days_since_push": 7.16,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "ESLint",
+        "name": "composer in /. - Update #1662033892",
         "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-10-24T18:59:06Z",
-        "updated_at": "2026-10-24T18:59:18Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/40123193584"
+        "conclusion": "success",
+        "created_at": "2026-10-29T02:13:55Z",
+        "updated_at": "2026-10-29T02:14:34Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/40805120887"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 6,
-        "success_rate": 0.3
+        "successful": 7,
+        "success_rate": 0.35
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -80,7 +80,6 @@
         "reason": "HTTP 401"
       },
       "health_flags": [
-        "LATEST_CI_NOT_GREEN",
         "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
@@ -92,7 +91,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 9.98,
+      "days_since_push": 10.28,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +131,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 15.96,
+      "days_since_push": 16.26,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -171,7 +170,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 8.6,
+      "days_since_push": 8.91,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -229,7 +228,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-21T06:45:17Z",
-      "days_since_push": 7.66,
+      "days_since_push": 7.97,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
