@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-30T22:27:06.897932+00:00",
+  "generated_at": "2026-10-31T05:54:02.280342+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -13,7 +13,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-24T18:23:06Z",
-      "days_since_push": 6.17,
+      "days_since_push": 6.48,
       "open_issues": 3,
       "stars": 1,
       "forks": 0,
@@ -52,19 +52,19 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-22T02:13:54Z",
-      "days_since_push": 8.84,
+      "days_since_push": 9.15,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "composer in /. - Update #1662033892",
+        "name": "CodeQL Advanced",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-10-29T02:13:55Z",
-        "updated_at": "2026-10-29T02:14:34Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/40805120887"
+        "conclusion": "failure",
+        "created_at": "2026-10-30T22:56:31Z",
+        "updated_at": "2026-10-30T22:57:40Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/41141362317"
       },
       "ci_last_10": {
         "completed": 20,
@@ -80,6 +80,7 @@
         "reason": "HTTP 401"
       },
       "health_flags": [
+        "LATEST_CI_NOT_GREEN",
         "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
@@ -91,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 11.97,
+      "days_since_push": 12.28,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -131,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 17.95,
+      "days_since_push": 18.26,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -170,7 +171,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 10.59,
+      "days_since_push": 10.9,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -228,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-21T06:45:17Z",
-      "days_since_push": 9.65,
+      "days_since_push": 9.96,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
