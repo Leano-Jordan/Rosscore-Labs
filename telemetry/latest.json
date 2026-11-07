@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-07T13:14:21.974186+00:00",
+  "generated_at": "2026-11-07T21:57:33.044142+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,9 +12,9 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-06T11:52:31Z",
-      "days_since_push": 1.06,
-      "open_issues": 2,
+      "pushed_at": "2026-11-07T21:54:20Z",
+      "days_since_push": 0.0,
+      "open_issues": 4,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
@@ -23,21 +23,21 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-11-06T11:59:14Z",
-        "updated_at": "2026-11-06T11:59:28Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/42214226407"
+        "created_at": "2026-11-07T21:56:23Z",
+        "updated_at": "2026-11-07T21:56:33Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/42418216009"
       },
       "ci_last_10": {
-        "completed": 20,
+        "completed": 19,
         "successful": 18,
-        "success_rate": 0.9
+        "success_rate": 0.947
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 42214226407,
-        "head_sha": "eb7c03fcf49964d4dada2fde53a4938a248bbe92",
+        "run_id": 42418216009,
+        "head_sha": "4c46cb9a5ff3187603404d4acfd4f2a25eb6e0ac",
         "reason": "HTTP 401"
       },
       "health_flags": [
@@ -52,24 +52,24 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-05T02:14:35Z",
-      "days_since_push": 2.46,
+      "days_since_push": 2.82,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "CodeQL Advanced",
+        "name": "ESLint",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-11-06T23:42:41Z",
-        "updated_at": "2026-11-06T23:43:59Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/42313697488"
+        "created_at": "2026-11-07T20:28:51Z",
+        "updated_at": "2026-11-07T20:29:06Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/42411245958"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 6,
-        "success_rate": 0.3
+        "successful": 5,
+        "success_rate": 0.25
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 19.58,
+      "days_since_push": 19.95,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 25.57,
+      "days_since_push": 25.93,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -171,7 +171,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 18.21,
+      "days_since_push": 18.57,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-03T16:42:53Z",
-      "days_since_push": 3.86,
+      "days_since_push": 4.22,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
