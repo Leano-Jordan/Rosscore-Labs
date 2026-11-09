@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-09T06:48:01.671110+00:00",
+  "generated_at": "2026-11-09T22:28:44.510090+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,9 +12,9 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T23:05:24Z",
-      "days_since_push": 0.32,
-      "open_issues": 3,
+      "pushed_at": "2026-11-09T22:11:58Z",
+      "days_since_push": 0.01,
+      "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
@@ -22,23 +22,23 @@
       "latest_ci": {
         "name": "Rosscore Director Health Report",
         "status": "completed",
-        "conclusion": "skipped",
-        "created_at": "2026-11-08T23:12:05Z",
-        "updated_at": "2026-11-08T23:12:06Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/42534012615"
+        "conclusion": "success",
+        "created_at": "2026-11-09T22:16:40Z",
+        "updated_at": "2026-11-09T22:16:53Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/42710402335"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 10,
-        "success_rate": 0.5
+        "successful": 17,
+        "success_rate": 0.85
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
-        "status": "completed",
-        "conclusion": "skipped",
-        "run_id": 42534012615,
-        "head_sha": "2735da0dcf1b31ada5804693999f1a15aa45fe96"
+        "status": "artifact_access_unavailable",
+        "run_id": 42710402335,
+        "head_sha": "0736a502333c7ccaf23cf7dbbae7ddb24e529747",
+        "reason": "HTTP 401"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -52,7 +52,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-05T02:14:35Z",
-      "days_since_push": 4.19,
+      "days_since_push": 4.84,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 21.32,
+      "days_since_push": 21.97,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 27.3,
+      "days_since_push": 27.95,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -171,7 +171,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 19.94,
+      "days_since_push": 20.59,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-03T16:42:53Z",
-      "days_since_push": 5.59,
+      "days_since_push": 6.24,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
