@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-11T19:41:19.647924+00:00",
+  "generated_at": "2026-11-12T07:21:45.086183+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,8 +12,8 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-11T19:12:12Z",
-      "days_since_push": 0.02,
+      "pushed_at": "2026-11-12T07:15:31Z",
+      "days_since_push": 0.0,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -23,21 +23,21 @@
         "name": "Rosscore Director Health Report",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-11-11T19:19:05Z",
-        "updated_at": "2026-11-11T19:19:16Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/43086062100"
+        "created_at": "2026-11-12T07:15:51Z",
+        "updated_at": "2026-11-12T07:16:01Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/43173967230"
       },
       "ci_last_10": {
-        "completed": 20,
-        "successful": 18,
-        "success_rate": 0.9
+        "completed": 19,
+        "successful": 16,
+        "success_rate": 0.842
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 43086062100,
-        "head_sha": "2ebff9707498e68e997d8182676b35c6df283765",
+        "run_id": 43173967230,
+        "head_sha": "4ba80e47a0d9d4c0f19061878929cdfd3e321174",
         "reason": "HTTP 401"
       },
       "health_flags": [
@@ -51,32 +51,32 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-05T02:14:35Z",
-      "days_since_push": 6.73,
+      "pushed_at": "2026-11-12T02:14:36Z",
+      "days_since_push": 0.21,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "ESLint",
+        "name": "SonarCloud analysis",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-11-07T20:28:51Z",
-        "updated_at": "2026-11-07T20:29:06Z",
-        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/42411245958"
+        "created_at": "2026-11-12T02:14:31Z",
+        "updated_at": "2026-11-12T02:14:48Z",
+        "html_url": "https://github.com/Leano-Jordan/store-ordering-system/actions/runs/43140012144"
       },
       "ci_last_10": {
         "completed": 20,
-        "successful": 5,
-        "success_rate": 0.25
+        "successful": 7,
+        "success_rate": 0.35
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
         "status": "artifact_access_unavailable",
-        "run_id": 41953876940,
-        "head_sha": "6237f0e9ba260a4b6249e7423eb0a342238d7d8d",
+        "run_id": 43140004902,
+        "head_sha": "9b0aef18d58da521684a3fcb30e704b182608232",
         "reason": "HTTP 401"
       },
       "health_flags": [
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 23.85,
+      "days_since_push": 24.34,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 29.84,
+      "days_since_push": 30.32,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -154,12 +154,12 @@
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
-        "status": "artifact_access_unavailable",
+        "status": "missing_artifact",
         "run_id": 38323079623,
-        "head_sha": "8ab4c87cf0fa44a1431817c6ff144995191e671c",
-        "reason": "HTTP 401"
+        "head_sha": "8ab4c87cf0fa44a1431817c6ff144995191e671c"
       },
       "health_flags": [
+        "STALE_30D",
         "DIRECTOR_HEALTH_NOT_READY"
       ]
     },
@@ -171,7 +171,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 22.48,
+      "days_since_push": 22.96,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-03T16:42:53Z",
-      "days_since_push": 8.12,
+      "days_since_push": 8.61,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
