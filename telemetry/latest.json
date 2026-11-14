@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-14T06:39:13.265911+00:00",
+  "generated_at": "2026-11-14T18:14:30.992908+00:00",
   "company": "Rosscore Labs",
   "company_director": "Ross",
   "source": "GitHub API current repository state + post-commit director health artifacts",
@@ -12,7 +12,7 @@
       "visibility": "public",
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-14T06:39:10Z",
+      "pushed_at": "2026-11-14T18:13:24Z",
       "days_since_push": 0.0,
       "open_issues": 2,
       "stars": 1,
@@ -20,25 +20,25 @@
       "has_issues": true,
       "has_actions": null,
       "latest_ci": {
-        "name": "Push on main",
-        "status": "queued",
-        "conclusion": null,
-        "created_at": "2026-11-14T06:39:12Z",
-        "updated_at": "2026-11-14T06:39:12Z",
-        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/43567385700"
+        "name": "Zazu quality",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-11-14T18:13:26Z",
+        "updated_at": "2026-11-14T18:13:39Z",
+        "html_url": "https://github.com/Leano-Jordan/ZazuEMP/actions/runs/43625380345"
       },
       "ci_last_10": {
-        "completed": 16,
-        "successful": 13,
-        "success_rate": 0.812
+        "completed": 19,
+        "successful": 14,
+        "success_rate": 0.737
       },
       "control_contracts_missing": [],
       "control_contracts_present": true,
       "director_health": {
-        "status": "queued",
-        "conclusion": null,
-        "run_id": 43567385688,
-        "head_sha": "38c70d34afbbbc2fce2c2a66f5672b288dc6d89f"
+        "status": "artifact_access_unavailable",
+        "run_id": 43625380320,
+        "head_sha": "1d81a646c7460328007b7258c1b4cac2f6ba550e",
+        "reason": "HTTP 401"
       },
       "health_flags": [
         "DIRECTOR_HEALTH_NOT_READY"
@@ -52,7 +52,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-12T02:14:36Z",
-      "days_since_push": 2.18,
+      "days_since_push": 2.67,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -92,7 +92,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-18T23:12:17Z",
-      "days_since_push": 26.31,
+      "days_since_push": 26.79,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
@@ -132,7 +132,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-12T23:37:06Z",
-      "days_since_push": 32.29,
+      "days_since_push": 32.78,
       "open_issues": 0,
       "stars": 1,
       "forks": 0,
@@ -171,7 +171,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-20T08:13:48Z",
-      "days_since_push": 24.93,
+      "days_since_push": 25.42,
       "open_issues": 2,
       "stars": 1,
       "forks": 0,
@@ -229,7 +229,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-03T16:42:53Z",
-      "days_since_push": 10.58,
+      "days_since_push": 11.06,
       "open_issues": 1,
       "stars": 1,
       "forks": 0,
