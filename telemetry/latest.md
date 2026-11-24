@@ -1,16 +1,16 @@
 # Ross Portfolio Telemetry
 
-Generated: 2026-11-24T10:02:02.338424+00:00
+Generated: 2026-11-24T22:33:30.158641+00:00
 
 | Project | Director | Push age | CI | Director report | Flags |
 |---|---|---:|---|---|---|
-| Zazu EMP | Jarvis | 0.0d | success | artifact_access_unavailable | DIRECTOR_HEALTH_NOT_READY |
-| Swift Order | Swifty | 1.9d | success | artifact_access_unavailable | DIRECTOR_HEALTH_NOT_READY |
-| GnuGuard | Gnu | 36.5d | failure | missing_artifact | STALE_30D, LATEST_CI_NOT_GREEN, DIRECTOR_HEALTH_NOT_READY |
-| Leano ITC Website | ITC | 42.4d | success | missing_artifact | STALE_30D, DIRECTOR_HEALTH_NOT_READY |
-| Maggie's Hair & Beauty | Mags | 35.1d | success | missing_artifact | STALE_30D, DIRECTOR_HEALTH_NOT_READY |
+| Zazu EMP | Jarvis | 0.1d | success | — | NO_DIRECTOR_HEALTH_REPORT |
+| Swift Order | Swifty | 2.5d | success | artifact_access_unavailable | DIRECTOR_HEALTH_NOT_READY |
+| GnuGuard | Gnu | 37.0d | failure | missing_artifact | STALE_30D, LATEST_CI_NOT_GREEN, DIRECTOR_HEALTH_NOT_READY |
+| Leano ITC Website | ITC | 43.0d | success | missing_artifact | STALE_30D, DIRECTOR_HEALTH_NOT_READY |
+| Maggie's Hair & Beauty | Mags | 35.6d | success | missing_artifact | STALE_30D, DIRECTOR_HEALTH_NOT_READY |
 | Catering Website Template | Cater | — | — | — | ACCESS_BLOCKED |
 | FRIDAY AI 6.7 Pro Refined | — | — | — | — | INACTIVE_PROJECT |
-| Zahzu Inventory Assistant (ZIA) | Plug | 20.7d | success | artifact_access_unavailable | DIRECTOR_HEALTH_NOT_READY |
+| Zahzu Inventory Assistant (ZIA) | Plug | 21.2d | success | artifact_access_unavailable | DIRECTOR_HEALTH_NOT_READY |
 | Mandla 411 Website | — | — | — | — | ACCESS_BLOCKED |
 | Online Task Management System | — | — | — | — | ACCESS_BLOCKED |
